@@ -1,0 +1,200 @@
+
+#logo{
+    width: 270px;
+    padding-bottom: 1%;
+}
+
+.navbar-nav > li{
+    font-family: Bahnschrift SemiBold;
+    padding-left: 4%;
+    align-items: center;
+}
+
+#slide{
+    padding-top: 90px;
+    width: 100%
+}
+
+#Card-formatting-Odd{
+    min-height: 150px;
+    background: #FFFFFF;
+    color: black;
+    text-align: center;
+}
+
+#Card-formatting-Even{
+    min-height: 150px;
+    background: #c7c7c7;
+    color: black;
+    text-align: center;
+}
+
+#Card-Title-Allignment{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.card { 
+    background-clip: border-box; 
+    border: 0 solid rgba(0, 0, 0, 0.125); 
+} 
+
+.fa{
+    font-size: 38px;
+}
+
+.row{
+    padding-top: 1%;
+}
+
+#First-Text-Area{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+#First-Text-Fields-Allignmenet,Second-Area-Text-Allignment{
+    font-size: 16px;
+}
+#H1-Allignment{
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+#First-Area-Row{
+    padding-bottom: 15px;
+}
+
+#Font-Awesome-Style{
+    font-size: 50px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    padding: 21px;
+    text-align: center;
+    color: black;
+}
+
+#Col-Allignment{
+    text-align:left;
+}
+
+#Col-Font{
+    font-size: 20px;
+}
+
+#Big-Image-Resize{
+    height: 100%;
+    width: 80%;
+}
+
+#Footer-Allignment{
+    background: #d9d9d9 ;
+    min-height: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#media-icon {
+    background-color: #d9d9d9; 
+    color: black;
+    border:0px;
+    padding: 2.5%;
+    }
+
+#Second-Text-Area{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+#Icon-Fix-Cogs{
+    font-size: 64px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    padding: 21px;
+    text-align: center;
+    color: black;
+}
+
+#Icon-Fix-Pagelines{
+    font-size: 70px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    padding: 21px;
+    text-align: center;
+    color: #60a042;
+}
+
+#Second-Field-Text-Allignment{
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+#LastFooter{
+    text-align: right;
+}
+
+ @media (max-width: 480px) {
+    #ratio-fix {
+        height: 115px;
+    }
+    #LastFooter{
+        text-align: center;
+    }
+    #Footer-Icon-Adjustment{
+        padding-left: 32px;
+    }
+}
+  
+@media (min-width: 481px) and (max-width: 767px) {
+    #ratio-fix {
+        height: 160px;
+    }
+    #LastFooter{
+        text-align: center;
+    }
+    #Footer-Icon-Adjustment{
+        padding:0 21%;
+    }
+}
+  
+@media (min-width: 768px) and (max-width: 1024px){
+    #ratio-fix {
+        height: 256px;
+    }
+    #LastFooter{
+        text-align: center;
+    } 
+    #Footer-Icon-Adjustment{
+        padding:0 29%;
+    }
+}
+
+@media (min-width: 989px){
+    #Footer-Icon-Adjustment{
+        padding:0 3%;
+    }
+}
+  
+@media (min-width: 1025px) and (max-width: 1280px){
+    #ratio-fix {
+        height: 342px;
+    }
+    #LastFooter{
+        text-align:right;
+    }
+    #Footer-Icon-Adjustment{
+        padding:0 5px;
+    }
+}
+  
+@media (min-width: 1281px) {
+    #ratio-fix {
+        height: 456px;
+    }
+} 

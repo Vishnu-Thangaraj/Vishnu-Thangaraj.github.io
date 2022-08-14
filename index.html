@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incprin Second Edition</title>
+
+                         <!------------ BOOTSTRAP LINKING ------------->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
+                         <!---------- FONT-AWESOME LINKING ------------>
+
+    <script src="https://kit.fontawesome.com/fcdeeddad6.js" crossorigin="anonymous"></script>
+
+                         <!------------ CSS FILE LINKING -------------->
+
+    <link href="./style/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+                         <!------ BOOTSTRAP JAVA SCRIPT LINKING ------->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+                         <!-------------- NAVIGATION BAR -------------->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <img src="./assets/images/Logo_tran.png" alt="WebsiteLogo" class="navbar-brand "id="logo">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class=" collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav container-fluid">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="#">MARKEST</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TECHNOLOGY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PRODUCTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SUSTAINABILITY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+                         <!---------------- IMAGE ROLLOVER ----------------->
+
+    <div id="slide">
+        <div id="ImageCarousel" class="carousel" data-bs-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-bs-target="#ImageCarousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#ImageCarousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#ImageCarousel" data-bs-slide-to="2"></li>
+                <li data-bs-target="#ImageCarousel" data-bs-slide-to="3"></li>
+            </ol>
+
+            <div class="carousel-inner" id="ratio-fix">
+                <div class="carousel-item active">
+                    <img src="./assets/images/1.jpg" class="d-block w-100" alt="First Image">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/2.jpg" class="d-block w-100" alt="Second Image">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/3.jpg" class="d-block w-100" alt="Third Image">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/4.jpg" class="d-block w-100" alt="Fourth Image">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#ImageCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#ImageCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+ 
+                             <!---------------- CARD FIELDS ----------------->
+
+    <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;">
+        <div class="col-sm-12 col-md-6 col-lg-3 align-items-center">
+            <div class="card" id="Card-formatting-Odd">
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <i class="fa fa-shopping-bag"></i>
+                    </h4>
+                    <h4 class="card-title" id="Card-Title-Allignment">
+                    Apparel Branding &amp; Labelling Solutions
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 align-items-center">
+            <div class="card" id="Card-formatting-Even">
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <i class="fa fa-tags"></i>
+                    </h4>
+                    <h4 class="card-title" id="Card-Title-Allignment">
+                        Automotive Products
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 align-items-center">
+            <div class="card" id="Card-formatting-Odd">
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <i class="fa fa-shopping-bag"></i>
+                    </h4>
+                    <h4 class="card-title" id="Card-Title-Allignment">
+                        Consumer Packaged Labelling Solutions
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 align-items-center">
+            <div class="card" id="Card-formatting-Even">
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <i class="fa fa-tags"></i>
+                    </h4>
+                    <h4 class="card-title" id="Card-Title-Allignment">
+                        Health Care
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+                         <!---------------- FIRST TEXT AREA ----------------->
+
+    <div class="container text-center" id="First-Text-Area">
+        <div class="row row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2">
+            <div class="col">
+                <h1 id="H1-Allignment">ABOUT US</h1>
+                <p class="text-center" id="First-Text-Fields-Allignmenet">
+                    INCPRIN is a fully forward-integrated and comprehensive solutions provider company.
+                    Based in Chennai, we serve PAN India. We Engineer, Build and maintain commercial and utility-scale projects that deliver a powerful return on investment for our clients.
+                </p>
+                <div class="row" id="First-Area-Row">
+                    <div class="col-auto text-center align-self-center d-none d-lg-inline">
+                        <i class="fa fa-shopping-bag" id="Font-Awesome-Style" style="font-size: 64px;"></i>
+                    </div>
+                    <div class="col" id="Col-Allignment">
+                        <h1 id="Col-Font">
+                            ROBUST PRINTING
+                        </h1>
+                        <ul >
+                         <li>
+                           Robust Printing and Finishing Infrastructure with ample capacity for mass production.
+                         </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row" id="First-Area-Row">
+                    <div class="col-auto text-center align-self-center d-none d-lg-inline">
+                        <i class="fas fa-box-open" id="Font-Awesome-Style"></i>
+                    </div>
+                    <div class="col" id="Col-Allignment">
+                        <h1 id="Col-Font">
+                            PACKAGING
+                        </h1>
+                        <ul >
+                         <li>
+                            Capability to produce all kinds of labels and packaging items catering to Apparel, FMCG, Electronics, Automotive, Pharma and Education industry.
+                         </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row" id="First-Area-Row">
+                    <div class="col-auto text-center align-self-center d-none d-lg-inline">
+                        <i class="fas fa-microchip" id="Font-Awesome-Style"></i>
+                    </div>
+                    <div class="col" id="Col-Allignment">
+                        <h1 id="Col-Font">
+                            INDUSTRY STANDARD
+                        </h1>
+                        <ul >
+                         <li>
+                            Industry Standards Workflows &amp; Automation Softwares in the entire production process.
+                         </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row" id="First-Area-Row">
+                    <div class="col-auto text-center align-self-center d-none d-lg-inline">
+                        <i class="fas fa-globe-americas" id="Font-Awesome-Style"></i>
+                    </div>
+                    <div class="col" id="Col-Allignment">
+                        <h1 id="Col-Font">
+                            GLOBAL SERVICES
+                        </h1>
+                        <ul >
+                         <li>
+                            We are providing Pan India service.
+                         </li>
+                         <li>
+                            Global services with the help of our Global partners.
+                         </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto d-none d-lg-inline">
+                <img src="./assets/images/SideImage1.jpg" alt="First Text Field Image" id="Big-Image-Resize">
+              </div>
+        </div>
+    </div>
+
+                         <!---------------- SECOND TEXT AREA ----------------->
+
+    <div class="container" id="Second-Text-Area">
+        <div class="d-flex align-items-center justify-content-center row row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2">
+            <div class="col-auto d-none d-lg-inline">
+                <img src="./assets/images/SideImage2.png" alt="Second Text Field Image" id="Big-Image-Resize">
+            </div>
+            <div class="col-auto">
+                <div class="col-auto text-center align-self-center">
+                    <i class="fas fa-cogs" id="Icon-Fix-Cogs"></i><br>
+                    <h1 id="Second-Field-Text-Allignment"> TECHNOLOGY </h1>
+                    <P class="text-center" id="Second-Area-Text-Allignment">
+                        We are using cutting edge technology and robust production process in manufacturing in wash care labels, heat transfer, self-adhesive labels, RF, RFID, mono cartons, rigid boxes, etc.
+                    </p> <br> <hr> <br>
+                    <div class="col-auto text-center align-self-center">
+                        <i class="fab fa-pagelines" id="Icon-Fix-Pagelines"></i>
+                    </div> <br> 
+                    <h1 id="Second-Field-Text-Allignment"> SUSTAINABILITY </h1>
+                    <p class="text-center" id="Second-Area-Text-Allignment">
+                       Our main strategy is the usage of sustainability based raw materials &amp; base material in labels and packaging production which will help us to align to India / Global carbon reduction program and green earth policies.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                                   <!------------ FOOTER ------------->
+
+<footer>
+
+    <div class="row align-items-center justify-content-between" width="100%" id="Footer-Allignment" >
+        <div class="ccol-xs-12 col-lg-4" id="Footer-Icon-Adjustment">
+            <button class="btn btn-primary" id="media-icon">
+                <a href="https://www.facebook.com/">
+                    <i class="fa fa-facebook" style="color: black;"></i>
+                </a>
+            </button>
+            <button class="btn btn-primary" id="media-icon">
+                <a href="https://www.twitter.com/">
+                    <i class="fa fa-twitter" style="color: black;"></i>
+                </a>
+            </button>
+            <button class="btn btn-primary" id="media-icon">
+                <a href="https://www.instagram.com/">
+                    <i class="fa fa-instagram" style="color: black;"></i>
+                </a>
+            </button>
+            <button class="btn btn-primary" id="media-icon">
+                <a href="https://www.linkedin.com/">
+                    <i class="fa fa-linkedin" style="color: black;"></i>
+                </a>
+            </button>
+            <button class="btn btn-primary" id="media-icon">
+                <a href="https://www.youtube.com/">
+                    <i class="fa fa-youtube-play" style="color: black;"></i>
+                </a>
+            </button>
+        </div>
+        <div class="col-xs-12 col-lg-8">
+            <p class="mb-0 " id="LastFooter">
+                © 2022 INCPRIN, All Rights Reserved.
+            </p>
+        </div>
+    </div>
+
+</footer>
+</body>
+</html>
